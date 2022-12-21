@@ -75,7 +75,8 @@
     2. cd UNIX
     3. cd ../Assembly
     4. mkdir ~/Desktop/LINUX
-    5. mv Linux.txt Unix.txt
+    5. touch Linux.txt
+       mv Linux.txt Unix.txt
     6. ls -R
 
 ## Que5:-
