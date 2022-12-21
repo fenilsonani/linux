@@ -91,3 +91,11 @@
 ### ans4:-
 
     1. echo "scale=5; 21/2" | bc
+    2. echo "obase=16; 42" | bc
+    3.  for number in {1..10}
+        do echo $number
+        done
+    4. echo "ibase=2; 1100" | bc
+    5. for number in {11..20}
+       do echo $number
+       done
