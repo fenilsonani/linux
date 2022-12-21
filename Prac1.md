@@ -54,4 +54,40 @@
 
 ## Que4:-
 
+    Do as directed.
+        1. Create three directories named UNIX, Assembly and C++ under your
+        Home directory.
+        2. Write command to move into UNIX from current directory by writing
+        single command.
+        3. Write command to move directly to Assembly by writing single
+        command. (Your current directory is UNIX).
+        4. Create a directory named LINUX in Desktop directory by writing single
+        command. (Your current directory is UNIX and do not use cd command.)
+        5. Write command to create text file named “Linux.txt”; Rename the file
+        “Linux.txt” to “Unix.txt”.
+        6. Recursively list all of the directories you created in Home directory by
+        writing single command. (Your current directory is UNIX and do not use
+        cd command).
+
+### ans4:-
+
+    1. mkdir UNIX Assembly C++
+    2. cd UNIX
+    3. cd ../Assembly
+    4. mkdir ~/Desktop/LINUX
+    5. mv Linux.txt Unix.txt
+    6. ls -R
+
+## Que5:-
+
     
+    Write a bc command for following:
+        1. To evaluate "21/2". Answer should contain 5 decimal places.
+        2. To convert 42 from decimal to hexadecimal.
+        3. To print digits from 1 to 10 using for loop.
+        4. To convert 1100 from binary to decimal.
+        5. To print digits from 11 to 20 using while loop. 
+
+### ans4:-
+
+    1. echo "scale=5; 21/2" | bc
