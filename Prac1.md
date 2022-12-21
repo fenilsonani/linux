@@ -48,13 +48,10 @@
     1. ls -a
     2. ls -d
     3. ls -1
-<<<<<<< HEAD
     4. ls -R
     5. ls 
-=======
     4. ls -R -a 
     5. ls | grep -E "^.{1}$"  or ls -ld ?
->>>>>>> 8a4dd45a8119e99d588c6eb417e65cda59ffecad
     6. ls -i
 
 ## Que4:-
@@ -105,7 +102,6 @@
     5. for number in {11..20}
        do echo $number
        done
-<<<<<<< HEAD
 
 ## Que6:-
     Solve following using echo command:
