@@ -11,7 +11,7 @@
             a. $date “+This is Date”
             b. $date “+This is date: %B
 
-### ans1:-
+### Ans1:-
 
     1. date "+%d/%m/%y %H:%M:%S"
     2. date "+Today's date is: %d/%m/%y. Current time is: %H:%M:%S %dth %B %Y"
@@ -28,7 +28,7 @@
         2. Display calendar for single month and Monday as the first day of week.
         3. Display calendar of January month of 2050 year.
 
-### ans2:-
+### Ans2:-
 
     1.  cal   
     2.  cal -M -b 1 2022
@@ -48,8 +48,8 @@
     1. ls -a
     2. ls -d
     3. ls -1
-    4. ls -R -a 
-    5. ls | grep -E "^.{1}$"
+    4. ls -R
+    5. ls 
     6. ls -i
 
 ## Que4:-
@@ -88,7 +88,7 @@
         4. To convert 1100 from binary to decimal.
         5. To print digits from 11 to 20 using while loop. 
 
-### ans4:-
+### Ans4:-
 
     1. echo "scale=5; 21/2" | bc
     2. echo "obase=16; 42" | bc
@@ -99,3 +99,54 @@
     5. for number in {11..20}
        do echo $number
        done
+
+## Que6:-
+    Solve following using echo command:
+    1. Write the output of a command:
+        $ echo "Current directory file list is `ls`" ( ` is back quote)
+    2. Write an interpretation of a command:
+        $ echo Welcome to the LINUX's world.
+    3. Write the output of a command:
+        echo {first, second, black, white}fish
+    4. Write an interpretation of a command:
+        echo -e "Welcome to the LINUX \c world."
+        echo "Welcome to the LINUX \c world."
+    5. Write the output of a command: echo *.txt
+    6. Write output and interpretation of:
+        echo "0 || 0" | bc
+        echo "0 || 0"
+    7. Write output and interpretation of:
+        echo "3*4+2"|bc
+        echo "3*4+2"|bc
+    8. Write output and interpretation of:
+        echo "length(123456)" | bc
+        echo "length(123456)"
+    9. Write output of and interpretation:
+        echo "(2+3)*4"|bc
+        echo "(2+3)*4"
+    10. Write output and interpretation of following commands:
+        a. echo "1 == 2" | bc
+        b. echo "10 == 10" | bc
+        c. echo "10 == 1 || 1 == 2" | bc
+        d. echo "10 == 10 || 1 == 2" | bc
+
+### Ans6:-
+
+    1.  Current directory file list is java linux
+    2.  echo "Welcome to the LINUX's world."
+    3.  {first, second, black, white}fish\
+    4.a.    Welcome to the LINUX
+      b.    Welcome to the LINUX \c world
+    5.  test.txt
+    6. a. 0
+       b. 0 || 0
+    7. a.   Command 'bc*' not found, did you mean:
+            command 'bc' from deb bc
+            command 'bcp' from deb libboost1.65-tools-dev
+            command 'bcp' from deb libboost1.62-tools-dev
+            command 'bcc' from deb bcc
+            command 'bch' from deb bikeshed
+            command 'bcd' from deb bsdgames
+        b.  14
+    8.  a. 6
+        b. length(123456)
