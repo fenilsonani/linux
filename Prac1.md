@@ -157,3 +157,33 @@
         b.  14
     8.  a. 6
         b. length(123456)
+    9.  a. 20
+        b. (2+3)*4
+    10. a.0
+        b.1
+        c.0
+        d.1
+
+
+## Que7:-
+
+    Write ls & echo command to display following list of files:
+        File names:
+        1. Having digit at the end of filename.
+        2. First characters should be capital rest of could be anything.
+        3. Having three consecutive alphabets.
+        4. Having "?" and "*" characters in filename.
+        5. Minimum length is 5 characters.
+        6. First character may be in uppercase or lowercase & second character must
+        in uppercase.
+        7. Having first and last character must be capital letter. 
+
+### Ans7:-
+
+        1. ls | grep -E "[0-9]$"
+        2. ls | grep -E "^[A-Z]"
+        3. ls | grep -E "[a-zA-Z]{3}"
+        4. ls | grep -E "[?*]"
+        5. ls | grep -E "^.{5}$"
+        6. ls | grep -E "^[a-zA-Z][A-Z]"
+        7. ls | grep -E "^[A-Z].*[A-Z]$"
