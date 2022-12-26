@@ -48,13 +48,10 @@
     1. ls -a
     2. ls -d
     3. ls -1
-<<<<<<< HEAD
     4. ls -R
     5. ls 
-=======
     4. ls -R -a 
     5. ls | grep -E "^.{1}$"  or ls -ld ?
->>>>>>> 8a4dd45a8119e99d588c6eb417e65cda59ffecad
     6. ls -i
 
 ## Que4:-
@@ -105,7 +102,6 @@
     5. for number in {11..20}
        do echo $number
        done
-<<<<<<< HEAD
 
 ## Que6:-
     Solve following using echo command:
@@ -157,6 +153,7 @@
         b.  14
     8.  a. 6
         b. length(123456)
+<<<<<<< HEAD
     9.  a. 20
         b. (2+3)*4
     10. a.0
@@ -187,3 +184,5 @@
         5. ls | grep -E "^.{5}$"
         6. ls | grep -E "^[a-zA-Z][A-Z]"
         7. ls | grep -E "^[A-Z].*[A-Z]$"
+=======
+>>>>>>> faa4adfe97bb6c42c9bf3a1cb04e58dce0e1f40a
