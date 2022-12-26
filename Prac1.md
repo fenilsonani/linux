@@ -184,5 +184,3 @@
         5. ls | grep -E "^.{5}$"
         6. ls | grep -E "^[a-zA-Z][A-Z]"
         7. ls | grep -E "^[A-Z].*[A-Z]$"
-=======
->>>>>>> faa4adfe97bb6c42c9bf3a1cb04e58dce0e1f40a
