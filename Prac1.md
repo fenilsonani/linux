@@ -174,10 +174,10 @@
 
 ### Ans7:-
 
-        1. ls | grep -E "[0-9]$"
-        2. ls | grep -E "^[A-Z]"
-        3. ls | grep -E "[a-zA-Z]{3}"
-        4. ls | grep -E "[?*]"
-        5. ls | grep -E "^.{5}$"
-        6. ls | grep -E "^[a-zA-Z][A-Z]"
-        7. ls | grep -E "^[A-Z].*[A-Z]$"
+        ls | grep -E "[0-9]$"
+        ls | grep -E "^[A-Z]"
+        ls | grep -E "[a-zA-Z]{3}"
+        ls | grep -E "[?*]"
+        ls | grep -E "^.{5}$"
+        ls | grep -E "^[a-zA-Z][A-Z]"
+        ls | grep -E "^[A-Z].*[A-Z]$"
