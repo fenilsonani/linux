@@ -49,8 +49,6 @@
     2. ls -d
     3. ls -1
     4. ls -R
-    5. ls 
-    4. ls -R -a 
     5. ls | grep -E "^.{1}$"  or ls -ld ?
     6. ls -i
 
