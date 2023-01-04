@@ -89,7 +89,7 @@
         4. To convert 1100 from binary to decimal.
         5. To print digits from 11 to 20 using while loop. 
 
-### Ans4:-
+### Ans5:-
 
     1. echo "scale=5; 21/2" | bc
     2. echo "obase=16; 42" | bc
