@@ -1,6 +1,9 @@
 # 1. Write a script to find the smallest number amongst three numbers read from
 # the keyboard
 
+# enrolment no: 202106100110160
+# name : Fenil Sonani
+
 echo "Enter three numbers"
 read a
 read b
