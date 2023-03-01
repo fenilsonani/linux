@@ -92,3 +92,6 @@ ls -a
 cd ../
 rm -r java
 mkdir -p java/program/jdbc
+
+# how to congig user name and email in git
+# git config --global user.name "your name"
