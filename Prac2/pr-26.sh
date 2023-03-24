@@ -2,7 +2,7 @@
 
 # code
 
-if [ $# -eq 0 ]; then
+if [ $# -eq 0 ]; then # explain this line -eq is equal to operator $# is number of arguments passed 
     echo "No arguments passed Please pass the file name"
     exit
 fi

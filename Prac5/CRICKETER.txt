@@ -1,0 +1,6 @@
+101|Virat Kohli|1|120|10|2
+102|Rohit Sharma|2|85|6|5
+103|Cheteshwar Pujara|3|50|4|0
+104|Rishabh Pant|1|91|9|4
+105|KL Rahul|2|62|5|3
+106|Ravindra Jadeja|3|28|2|1

@@ -9,7 +9,7 @@ if [ $# -eq 0 ]; then
     exit
 fi
 
-if [ ! -f $1 ]; then
+if [ ! -f $1 ]; then # -f checks if file exists ! negates the condition
     echo "File does not exist"
     exit
 fi

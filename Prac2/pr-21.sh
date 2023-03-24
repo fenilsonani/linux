@@ -10,7 +10,8 @@ then
     exit
 fi
 
-if [ -f $1 ]
+# this is the command line argument
+if [ -f $1 ] 
 then
     echo "File exists"
 else
